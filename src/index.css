@@ -1,14 +1,37 @@
 @import "tailwindcss";
 
+/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
+/* Global body styling */
 body {
   margin: 0;
+  padding: 0;
   background-color: #020617;
+  color: white;
+  overflow-x: hidden;
 }
 
+/* Box sizing */
 * {
   box-sizing: border-box;
+}
+
+/* Prevent images from overflowing */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Better mobile text wrapping */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }

@@ -19,12 +19,11 @@ function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-slate-900/80 backdrop-blur-md z-50 shadow-lg">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-8 py-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-5 sm:px-8 py-4">
 
         {/* Logo */}
-        <h1 className="text-3xl font-bold text-cyan-400 cursor-pointer">
-          Suraj.
-        </h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-cyan-400 cursor-pointer">
+</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-white">
