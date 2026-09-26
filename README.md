@@ -1,18 +1,127 @@
-# React + Vite
+# 🌐 Suraj Ojha - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built to showcase my skills, projects, internships, education, certifications, achievements, and contact information.
 
-Currently, two official plugins are available:
+The portfolio is designed with a clean dark theme, responsive layouts, smooth animations, interactive certificate previews, and recruiter-friendly project information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Portfolio
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+🔗 **Live Website:** https://suraj-portfolio-pied.vercel.app
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 👨‍💻 About Me
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hi, I'm **Suraj Ojha**, a Full Stack Developer passionate about building responsive, scalable, and user-friendly web applications.
+
+I work primarily with modern web technologies including React.js, JavaScript, Node.js, Express.js, and MongoDB.
+
+My goal is to continuously improve my development skills and build real-world applications using modern software development practices.
+
+---
+
+## ✨ Features
+
+- 📱 Fully responsive design
+- 💻 Desktop, tablet, and mobile support
+- 🎨 Modern dark-themed UI
+- ⚡ Smooth animations using Framer Motion
+- 🧭 Responsive navigation bar
+- 📄 Resume view and download
+- 👨‍💻 Skills and technologies section
+- 📊 Data Science skills section
+- 🚀 Project showcase with:
+  - Project description
+  - Technology stack
+  - Key features
+  - Live demo
+  - GitHub repository
+- 💼 Internship and experience section
+- 🎓 Education section
+- 🏆 Achievements section
+- 📜 Certificate showcase
+- 🔍 Interactive certificate preview modal
+- 📧 Contact form using EmailJS
+- 🔗 GitHub, LinkedIn, Instagram and Email links
+- ⬆️ Scroll-to-top button
+- 🌐 Smooth section navigation
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+
+### UI & Animation
+
+- Framer Motion
+- React Icons
+- React Simple Typewriter
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Vite
+- Vercel
+
+### Data Science
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+
+### Contact
+
+- EmailJS
+
+---
+
+## 📂 Project Structure
+
+```text
+portfolio/
+│
+├── public/
+│   ├── favicon.svg
+│   ├── icons.svg
+│   └── resume.pdf
+│
+├── src/
+│   ├── assets/
+│   │   ├── Certificates/
+│   │   └── project/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── DataScience.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Education.jsx
+│   │   ├── Achievements.jsx
+│   │   ├── Certificates.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   └── ScrollToTop.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
