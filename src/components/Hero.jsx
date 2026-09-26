@@ -1,6 +1,6 @@
 import heroImg from "../assets/project/pic.jpg";
 import { Typewriter } from "react-simple-typewriter";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -48,14 +48,31 @@ function Hero() {
             Express.js and MongoDB.
           </p>
 
-          {/* Buttons */}
-          <div className="mt-7 flex flex-wrap justify-center md:justify-start gap-3">
+          {/* Resume Button */}
+          <div className="mt-7 flex justify-center md:justify-start">
             <a
               href="/resume.pdf"
-              target="_blank"
-              rel="noreferrer"
-              className="border border-cyan-400 text-cyan-400 px-5 py-3 rounded-lg text-sm sm:text-base hover:bg-cyan-400 hover:text-black transition"
+              download="Suraj_Ojha_Resume.pdf"
+              className="
+                inline-flex
+                items-center
+                justify-center
+                gap-2
+                bg-cyan-400
+                text-black
+                px-6
+                py-3
+                rounded-lg
+                font-semibold
+                text-sm
+                sm:text-base
+                hover:bg-cyan-300
+                hover:scale-105
+                transition-all
+                duration-300
+              "
             >
+              <FaFilePdf />
               Download Resume
             </a>
           </div>
@@ -66,20 +83,27 @@ function Hero() {
               href="https://github.com/ojhasuraj06"
               target="_blank"
               rel="noreferrer"
+              aria-label="GitHub"
             >
-              <FaGithub className="hover:text-cyan-400 transition" />
+              <FaGithub className="hover:text-cyan-400 hover:scale-110 transition" />
             </a>
 
             <a
               href="https://www.linkedin.com/in/ojhasuraj06"
               target="_blank"
               rel="noreferrer"
+              aria-label="LinkedIn"
             >
-              <FaLinkedin className="hover:text-cyan-400 transition" />
+              <FaLinkedin className="hover:text-cyan-400 hover:scale-110 transition" />
             </a>
 
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ojhasuraj05may@gmail.com">
-              <FaEnvelope className="hover:text-cyan-400 transition" />
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ojhasuraj05may@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Email"
+            >
+              <FaEnvelope className="hover:text-cyan-400 hover:scale-110 transition" />
             </a>
           </div>
         </motion.div>
@@ -94,7 +118,22 @@ function Hero() {
           <img
             src={heroImg}
             alt="Suraj Ojha"
-            className="w-[260px] sm:w-[330px] md:w-[450px] lg:w-[500px] max-w-full h-auto object-contain rounded-2xl border-4 border-cyan-400 shadow-[0_0_35px_rgba(34,211,238,0.5)] hover:scale-105 transition-all duration-500"
+            className="
+              w-[260px]
+              sm:w-[330px]
+              md:w-[450px]
+              lg:w-[500px]
+              max-w-full
+              h-auto
+              object-contain
+              rounded-2xl
+              border-4
+              border-cyan-400
+              shadow-[0_0_35px_rgba(34,211,238,0.5)]
+              hover:scale-105
+              transition-all
+              duration-500
+            "
           />
         </motion.div>
 
